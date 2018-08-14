@@ -1,0 +1,6 @@
+com\rkp\sdwan\Application.class
+com\rkp\sdwan\services\SdwanService.class
+com\rkp\sdwan\controllers\SdwanServiceController.class
+com\rkp\sdwan\config\ServiceConfig.class
+com\rkp\sdwan\model\SdwanAccountDetails.class
+com\rkp\sdwan\model\Circuit.class

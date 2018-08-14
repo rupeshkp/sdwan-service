@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: sdwan-service
+  profiles:
+    active:
+      default
+  cloud:
+    config:
+      #uri: http://localhost:8888
+      #uri: http://192.168.99.100:8888
+      uri: http://192.168.0.19:8888

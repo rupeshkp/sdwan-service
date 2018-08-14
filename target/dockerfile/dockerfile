@@ -1,0 +1,9 @@
+FROM openjdk:8-jdk-alpine
+RUN mkdir -p /tmp/sdwan-service
+ADD  sdwan-service-0.1-SNAPSHOT.jar /tmp/sdwan-service/
+ADD run.sh run.sh
+ADD wait-for-it.sh wait-for-it.sh
+RUN chmod +x wait-for-it.sh
+RUN chmod +x run.sh
+CMD ./run.sh
+

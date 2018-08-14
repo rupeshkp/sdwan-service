@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: sdwan-service
+  profiles:
+    active:
+      default
+  cloud:
+    config:
+      uri: http://localhost:8888
+#      discovery:
+#        enabled: true
+#        serviceId: configserver
